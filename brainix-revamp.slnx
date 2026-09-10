@@ -1,2 +1,6 @@
 <Solution>
+    <Folder Name="/src/">
+        <Project Path="src/Brainix.Host/Brainix.Host.csproj" />
+    </Folder>
+    <Project Path="tests/Brainix.Host.Tests/Brainix.Host.Test.csproj" />
 </Solution>

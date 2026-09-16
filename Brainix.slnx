@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Brainix.Host/Brainix.Host.csproj" />
+    <Project Path="src/Brainix.SharedKernel/Brainix.SharedKernel.csproj" />
   </Folder>
 </Solution>

@@ -11,11 +11,13 @@ builder.Services.AddHealthChecks().AddCheck("self", () => HealthCheckResult.Heal
 // builds the web application
 var app = builder.Build();
 
+// is the process up at all?
 app.MapHealthChecks("/health/live", new HealthCheckOptions
 {
     Predicate = (check) => check.Tags.Contains("live")
 });
 
+// can this process serve real traffic?
 app.MapHealthChecks("/health", new HealthCheckOptions
 {
     Predicate = _ => true

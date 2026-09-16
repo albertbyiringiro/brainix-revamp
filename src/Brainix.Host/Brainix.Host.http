@@ -1,6 +1,0 @@
-@Brainix.Host_HostAddress = http://localhost:5140
-
-GET {{Brainix.Host_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

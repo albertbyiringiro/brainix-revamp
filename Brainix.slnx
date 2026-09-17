@@ -3,4 +3,7 @@
     <Project Path="src/Brainix.Host/Brainix.Host.csproj" />
     <Project Path="src/Brainix.SharedKernel/Brainix.SharedKernel.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Brainix.Host.Tests/Brainix.Host.Tests.csproj" />
+  </Folder>
 </Solution>
